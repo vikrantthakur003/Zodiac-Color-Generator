@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.container>h1{
+    /* margin: 3vmax; */
+    background-color: black;
+    color: white;
+    width: 500px;
+    padding: 12px;
+    font: 100 1.3rem sans-serif;
+    margin: 2vmax auto ;
+}
+.container>select{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 12px;
+    font: 100 1.3rem sans-serif;
+}
+.container>button{
+    background-color: crimson;
+    padding: 12px;
+    font: 100 1.3rem sans-serif;
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.container>button:hover{
+    border: 2px solid crimson;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
